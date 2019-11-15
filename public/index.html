@@ -21,22 +21,22 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   <script>
-    function remRefresh() {
-      let clientWidth = document.documentElement.clientWidth
-      let rem = clientWidth / 10;
-      document.documentElement.style.fontSize = rem + 'px'
-      document.body.style.fontSize = '12px'
-    }
-    window.addEventListener('pageshow', () =>{
-      remRefresh()
-    })
-    let timeoutId;
-    window.addEventListener('resize', ()=>{
-      timeoutId && clearTimeout(timeoutId)
-      timeoutId = setTimeout(() => {
-        remRefresh()
-      }, 2000);
-    })
+    // function remRefresh() {
+    //   let clientWidth = document.documentElement.clientWidth
+    //   let rem = clientWidth / 10;
+    //   document.documentElement.style.fontSize = rem + 'px'
+    //   document.body.style.fontSize = '12px'
+    // }
+    // window.addEventListener('pageshow', () =>{
+    //   remRefresh()
+    // })
+    // let timeoutId;
+    // window.addEventListener('resize', ()=>{
+    //   timeoutId && clearTimeout(timeoutId)
+    //   timeoutId = setTimeout(() => {
+    //     remRefresh()
+    //   }, 2000);
+    // })
   </script>  
   </body>
 </html>

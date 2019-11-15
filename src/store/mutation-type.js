@@ -19,3 +19,4 @@ export const DEL_FOOD_COUNT = 'del_food_count'
 export const CLEAR_CARTSHOPS = ' clear_cartshops'
 
 export const SAVE_CARTSHOPS = 'save_cartshops'
+
